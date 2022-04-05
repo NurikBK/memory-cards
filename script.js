@@ -140,7 +140,10 @@ addCardBtn.addEventListener('click', () => {
 });
 
 clearBtn.addEventListener('click', () => {
-  localStorage.removeItem('cards');
-  cardsContainer.innerHTML = '';
-  window.location.reload();
+  if(confirm('You wanna delete all the cards?')){
+    localStorage.removeItem('cards');
+    cardsContainer.innerHTML = '';
+    window.location.reload();
+  }
+  
 })
