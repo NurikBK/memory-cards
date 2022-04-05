@@ -9,14 +9,20 @@ body {
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
 }
-
 h1 {
+  margin: 20px;
+}
+
+.header button {
+  margin-bottom: 10px;
+}
+/* h1 {
   position: relative;
 }
 h1 button {
@@ -24,7 +30,7 @@ h1 button {
   right: 0;
   transform: translate(120%, -50%);
   z-index: 2;
-}
+} */
 
 .btn {
   cursor: pointer;
@@ -46,11 +52,11 @@ h1 button {
   background-color: transparent;
 }
 
-.clear {
+/* .clear {
   position: absolute;
   bottom: 30px;
   left: 30px;
-}
+} */
 
 .cards {
   perspective: 1000px;
@@ -160,7 +166,7 @@ h1 button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 10px 0;
   position: absolute;
   top: 0;
@@ -190,4 +196,8 @@ h1 button {
   padding: 12px;
   min-width: 350px;
   max-width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: column;
 }
