@@ -47,17 +47,6 @@ h1 button {
   padding: 5px 10px;
 }
 
-.btn-ghost {
-  border: 0;
-  background-color: transparent;
-}
-
-/* .clear {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-} */
-
 .cards {
   perspective: 1000px;
   position: relative;
@@ -88,10 +77,6 @@ h1 button {
 .card.left {
   transform: translateX(-50%) rotateY(10deg);
 }
-
-/* .card.right {
-  transform: translateX(-150%) rotateY(10deg);
-} */
 
 .inner-card {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
